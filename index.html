@@ -2,13 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My live page</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ramaraja&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Simple template</title>
 </head>
 <body>
-    <h1>Some great page</h1>
-    <img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2019/07/what-is-quokka.jpg?quality=82&strip=all" alt="quokka image">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, expedita iure! Qui ea officia eveniet. Minus, voluptatibus rerum porro maxime nostrum consequuntur beatae id recusandae aspernatur placeat voluptas voluptatem aliquid.</p>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header__logo">
+                <img src="image/logo.svg" alt="">
+            </div>
+
+            <ul class="header__list">
+                <li class="header__list-item"   >
+                    <a class="header__list-link" href="#">
+                        Home
+                    </a>
+                </li>
+                <li class="header__list-item">
+                    <a class="header__list-link" href="#">
+                        About
+                    </a>
+                </li>
+                <li class="header__list-item">
+                    <a class="header__list-link" href="#">
+                        Blog
+                    </a>
+                </li>
+                <li class="header__list-item">
+                    <a class="header__list-link" href="#">
+                        Contact
+                    </a>
+                </li>
+                <li class="header__list-item">
+                    <a class="header__list-link" href="#">
+                        Sign In
+                    </a>
+                </li>
+            </ul>
+
+            <button class="header__button">
+                Sing Up
+            </button>
+        </div>
+
+        <div class="main">
+            <div class="main__about">
+                <h6 class="main__about-title">
+                    Stay Productive &
+                    Work Remotely
+                </h6>
+
+                <p class="main__about-text">
+                    The key to work-from-home success is to create an 
+                    enviroment that allows you to focus on the tasks at hand. Whether you are working from home for the first time.
+                </p>
+
+                <button class="main__about-button">
+                    Learn More
+                </button>
+            </div>
+            <div class="main__image">
+            </div>
+        </div>
+    </div>
 </body>
 </html>

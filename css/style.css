@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.header__list {
+    display: inherit;
+    list-style-type: none;
+}
+
+.header__list-item {
+    margin: 48px 38px 48px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.header__list-item:first-child {
+    margin-left: 130px;
+ }
+
+ .header__list-item:last-child {
+    margin-left: 470px;
+ }
+
+.header__list-link {
+    color: #1B0A42;
+    text-decoration: none;
+}
+
+.header__button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    width: 120px;
+    height: 59.65px;
+    background: #4F56F1;
+    border-radius: 6px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-right: 65px;
+    border: none;
+    cursor: pointer;
+}
+
+.main {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+
+}
+
+.main__about {
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 40%;
+
+}
+
+.main__about-title {
+    font-family: Ramaraja;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    margin-top: 100px;
+}
+
+.main__about-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+
+    margin-bottom: 50px;
+}
+
+.main__about-button {
+    width: 152px;
+    height: 63.82px;
+    background: #4F56F1;    
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.main__image {
+    background-image: url('../image/girl.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 600px;
+}
